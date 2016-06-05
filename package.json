@@ -4,7 +4,9 @@
   "description": "",
   "main": "client.js",
   "scripts": {
-    "serve": "node server.js"
+    "serve": "node server.js",
+    "build": "webpack",
+    "start": "node client.js"
   },
   "author": "",
   "license": "ISC",
